@@ -1,6 +1,6 @@
 # PhishGaurd🛡️⚔️
-PhishGuard: AI-Powered Email Phishing Analysis⛓️‍💥.  PhishGuard leverages AI and ML to detect and prevent phishing attacks. With real-time detection🎯, comprehensive reports, and an intuitive interface, PhishGuard secures your organization against malicious threats such as Ransomeware⚠️,RAT,Malware,viruses, and 0-days☢️ throughout searching on available and modified databases.
+PhishGuard: AI-Powered Email Phishing Analysis🔎.  PhishGuard leverages AI and ML technologies to detect  ⚓🐟phishing attacks. With real-time detection, comprehensive reports, and an userfriendly interface, PhishGuard secures your Environment against malicious threats like Malwares☢️,viruses⚠️,worms🪱, 0-days🐞 scanning throught available and modified databases.
 
-## Note:
-👉 frontend part of website is ready. Features are under development🚴, It will be released📢 soon....
-📢 https://dncrypter.github.io/PhishGaurd/
+## 📢 Note -
+👉 Project is ready with frontend side and features are under development on backend. I am trying to release soon....
+🌐 https://dncrypter.github.io/PhishGaurd/ 
