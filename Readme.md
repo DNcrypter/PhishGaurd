@@ -10,4 +10,4 @@ PhishGuard: AI-Powered Email Phishing Analysis🔎.  PhishGuard leverages AI and
 🌐 https://dncrypter.github.io/PhishGaurd/ 
 
 ## Backend Flowchart:-
-![](https://github.com/DNcrypter/PhishGaurd/blob/main/Backend_Flowchart.pdf)
+![](https://github.com/DNcrypter/PhishGaurd/blob/main/Backend_Flowchart.jpg)
