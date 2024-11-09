@@ -6,7 +6,7 @@ import file_3 from "./../img/file_3.pdf";
 
 const DownloadButton =()=>{
 
-    const DownloadButton_1 = () => {
+    const DownloadButton1 = () => {
         const handleDownload = () => {
           const link = document.createElement("a");
           link.href = file_1;
@@ -24,7 +24,7 @@ const DownloadButton =()=>{
       };
 
 
-      const DownloadButton_2 = () => {
+      const DownloadButton2 = () => {
         const handleDownload = () => {
           const link = document.createElement("a");
           link.href = file_2;
@@ -42,7 +42,7 @@ const DownloadButton =()=>{
       };
 
 
-      const DownloadButton_3 = () => {
+      const DownloadButton3 = () => {
         const handleDownload = () => {
           const link = document.createElement("a");
           link.href = file_3;
@@ -62,11 +62,11 @@ const DownloadButton =()=>{
       return (
         <div className="text-align">
         <h3 className="text-align">Demo Files</h3>
-        <DownloadButton_1  />
-        <DownloadButton_2  />
-        <DownloadButton_3  />
+        <DownloadButton1  />
+        <DownloadButton2  />
+        <DownloadButton3  />
         </div>
-      )
+      );
 
 
 }

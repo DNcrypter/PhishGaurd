@@ -1,9 +1,12 @@
 import React, { useState } from "react";
+import Popup from "./Popup";
 import "./../App.css";
 
 const FileUpload = () => {
   const [file, setFile] = useState(null);
   const [dragging, setDragging] = useState(false);
+  const [showUploadPopup, setShowUploadPopup] = useState(false);
+  const [showReportPopup, setShowReportPopup] = useState(false);
 
   const handleDragOver = (e) => {
     e.preventDefault();
@@ -28,6 +31,18 @@ const FileUpload = () => {
   const handleUpload = () => {
     // Handle the file upload logic
     console.log("Uploading:", file);
+    setShowUploadPopup(true);
+
+    // Trigger the second popup after 6 seconds
+    setTimeout(() => {
+      setShowReportPopup(true);
+      // Reset the file upload container after the popup
+      setTimeout(() => {
+        setFile(null);
+        setShowUploadPopup(false);
+        setShowReportPopup(false);
+      }, 3000);
+    }, 6000);
   };
 
   const handleCancel = () => {
@@ -36,6 +51,8 @@ const FileUpload = () => {
 
   return (
     <div className="file-upload-container">
+      <Popup message="File is uploaded successfully" show={showUploadPopup} duration={3000} />
+      <Popup message="Report is sent to your email and Slack channel" show={showReportPopup} duration={3000} />
       <div 
         className={`drop-area ${dragging ? "dragging" : ""}`}
         onDragOver={handleDragOver}
