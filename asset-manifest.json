@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/PhishGaurd/static/css/main.8936f9a6.css",
-    "main.js": "/PhishGaurd/static/js/main.a93f30d3.js",
+    "main.css": "/PhishGaurd/static/css/main.b7663afc.css",
+    "main.js": "/PhishGaurd/static/js/main.39d614f5.js",
     "static/js/453.90d330a4.chunk.js": "/PhishGaurd/static/js/453.90d330a4.chunk.js",
-    "static/media/file_3.pdf": "/PhishGaurd/static/media/file_3.3d28526547ef6ee75174.pdf",
-    "static/media/file_1.pdf": "/PhishGaurd/static/media/file_1.bd6344e145880e36ad3d.pdf",
-    "static/media/file_2.pdf": "/PhishGaurd/static/media/file_2.6460c86d2c30e6078024.pdf",
+    "static/media/Sample 3 -phishing-email.eml": "/PhishGaurd/static/media/Sample 3 -phishing-email.4547d8ffd2f4cfecf6ac.eml",
+    "static/media/Sample 1 -phishing-email.eml": "/PhishGaurd/static/media/Sample 1 -phishing-email.50ae06487e03e42188af.eml",
+    "static/media/Sample 2 -phishing-email.eml": "/PhishGaurd/static/media/Sample 2 -phishing-email.db424fc476b26c003480.eml",
     "index.html": "/PhishGaurd/index.html",
-    "main.8936f9a6.css.map": "/PhishGaurd/static/css/main.8936f9a6.css.map",
-    "main.a93f30d3.js.map": "/PhishGaurd/static/js/main.a93f30d3.js.map",
+    "main.b7663afc.css.map": "/PhishGaurd/static/css/main.b7663afc.css.map",
+    "main.39d614f5.js.map": "/PhishGaurd/static/js/main.39d614f5.js.map",
     "453.90d330a4.chunk.js.map": "/PhishGaurd/static/js/453.90d330a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8936f9a6.css",
-    "static/js/main.a93f30d3.js"
+    "static/css/main.b7663afc.css",
+    "static/js/main.39d614f5.js"
   ]
 }
